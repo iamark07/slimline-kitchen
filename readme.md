@@ -1,1 +1,1 @@
-https://github.com/iamark07/slimline-kitchen.com
+https://iamark07.github.io/slimline-kitchen/
