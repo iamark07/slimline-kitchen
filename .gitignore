@@ -1,0 +1,64 @@
+# Node dependencies
+node_modules/
+npm-debug.log
+yarn.lock
+package-lock.json
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Composer dependencies
+vendor/
+composer.lock
+
+# Environment and config files
+.env
+.env.*.local
+*.local
+*.env.php
+
+# Cache and logs
+cache/
+*.log
+logs/
+*.cache
+*.tmp
+
+# IDE/editor folders
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Build/compiled files (but keep our tailwind.css)
+dist/
+build/
+public/build/
+
+# Ignore minified vendor files but not our assets css/js
+*.min.js
+!assets/js/*.min.js
+!assets/css/*.min.css
+
+# Uploaded files
+uploads/
+storage/
+tmp/
+files/
+
+# SASS/SCSS cache
+.sass-cache/
+
+# Misc
+*.bak
+*.swp
+*.orig
+*.sql
+*.sqlite
+*.db
+
+# PHPStorm metadata
+/.phpstorm.meta.php/
+desktop.ini
+config.php
