@@ -27,7 +27,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="preload"
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Outfit:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&&family=Roboto+Slab:wght@100..900&family=Outfit:wght@100..900&family=Poppins:wght@400;500;600;700&display=swap"
         as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript>
         <link rel="stylesheet"
@@ -94,21 +94,18 @@
                 <div class="relative group">
                     <button
                         class="flex items-center gap-1 hover:text-red-600 transition focus:outline-none font-[400] text-sm xl:text-[15px] cursor-pointer">
-                        Product <i class="ri-arrow-down-s-line"></i>
+                        Product <i class="ri-arrow-down-s-line group-hover:rotate-180 transition-all duration-100"></i>
                     </button>
                     <!-- Dropdown -->
                     <div
-                        class="absolute left-0 pt-3 opacity-0 group-hover:opacity-100 pointer-events-none group-hover:pointer-events-auto transition-all duration-200 z-20">
-                        <div class="text-nowrap bg-white shadow-xl p-3  border border-gray-100">
+                        class="absolute left-1/2 -translate-x-1/2 pt-3 opacity-0 group-hover:opacity-100  pointer-events-none group-hover:pointer-events-auto transition-all duration-200 z-20">
+                        <div class=" flex gap-1 text-nowrap bg-white shadow-xl p-3 border border-gray-100">
                             <a href="#"
-                                class="block px-6 py-2 hover:bg-red-50 text-gray-700 rounded flex items-center gap-2 font-[400] text-sm xl:text-[15px]"><i
-                                    class="ri-cup-line text-red-600"></i> Kitchen Accessories</a>
+                                class="px-6 py-2 hover:bg-red-50 text-gray-700 !flex gap-1 flex-col justify-center items-center font-[400] text-sm"><img src="assets/images/header-dropdown-icon/Basket.png" class="w-14 h-14" alt=""> Kitchen Accessories</a>
                             <a href="#"
-                                class="block px-6 py-2 hover:bg-red-50 text-gray-700 rounded flex items-center gap-2 font-[400] text-sm xl:text-[15px]"><i
-                                    class="ri-closet-line text-red-600"></i> Wardrobe Accessories</a>
+                                class="px-6 py-2 hover:bg-red-50 text-gray-700 !flex gap-1 flex-col justify-center items-center font-[400] text-sm"><img src="assets/images/header-dropdown-icon/Basket.png" class="w-14 h-14" alt=""> Wardrobe Accessories</a>
                             <a href="#"
-                                class="block px-6 py-2 hover:bg-red-50 text-gray-700 rounded flex items-center gap-2 font-[400] text-sm xl:text-[15px]"><i
-                                    class="ri-shower-line text-red-600"></i> Bathroom Accessories</a>
+                                class="px-6 py-2 hover:bg-red-50 text-gray-700 !flex gap-1 flex-col justify-center items-center font-[400] text-sm"><img src="assets/images/header-dropdown-icon/Basket.png" class="w-14 h-14" alt=""> Bathroom Accessories</a>
                         </div>
                     </div>
                 </div>
@@ -164,8 +161,8 @@
             <div class="container mx-auto px-5 justify-between grid lg:grid-cols-5 gap-5 items-center ">
                 <!-- Left: Text -->
                 <div class="lg:col-span-3">
-                    <h1 class="text-lg md:text-xl lg:text-4xl font-semibold text-white drop-shadow mb-3 flex flex-col">
-                        We Can Make <span class="text-white text-2xl md:text-4xl lg:text-6xl">your Interior Look
+                    <h1 class="text-lg md:text-xl lg:text-4xl !font-[400] text-white drop-shadow mb-3 flex flex-col">
+                        We Can Make <span class="text-white text-2xl md:text-4xl lg:text-6xl">Your Interior Look
                             Better</span>
                     </h1>
                     <p class="md:text-lg text-white/90 mb-8 drop-shadow max-w-2xl">
@@ -181,24 +178,24 @@
                 <div class="lg:col-span-2 flex flex-col items-end h-full justify-end mt-10 lg:mt-0">
                     <div class="grid grid-cols-5 gap-2 bg-transparent p-0 shadow-none">
                         <!-- Thumbnail 1 with overlay -->
-                        <div class="col-span-2 relative overflow-hidden shadow">
+                        <div class="col-span-2 relative overflow-hidden shadow cursor-pointer group">
                             <img src="assets/images/slider/slider-3.jpg" alt="Kitchen"
-                                class="w-full h-full object-cover">
+                                class="w-full h-full object-cover group-hover:scale-[1.05] transition-all duration-200">
                         </div>
                         <!-- Thumbnail 2 -->
-                        <div class="overflow-hidden shadow">
+                        <div class="overflow-hidden shadow cursor-pointer group">
                             <img src="assets/images/slider/slider-1.jpg" alt="Wardrobe"
-                                class="w-full h-full object-cover">
+                                class="w-full h-full object-cover group-hover:scale-[1.05] transition-all duration-200">
                         </div>
                         <!-- Thumbnail 3 -->
-                        <div class="overflow-hidden shadow">
+                        <div class="overflow-hidden shadow cursor-pointer group">
                             <img src="assets/images/slider/slider-4.jpg" alt="Bathroom"
-                                class="w-full h-full object-cover">
+                                class="w-full h-full object-cover group-hover:scale-[1.05] transition-all duration-200">
                         </div>
                         <!-- Thumbnail 4 -->
-                        <div class="overflow-hidden shadow">
+                        <div class="overflow-hidden shadow cursor-pointer group">
                             <img src="assets/images/slider/slider-2.jpg" alt="Living"
-                                class="w-full h-full object-cover">
+                                class="w-full h-full object-cover group-hover:scale-[1.05] transition-all duration-200">
                         </div>
                     </div>
                 </div>
