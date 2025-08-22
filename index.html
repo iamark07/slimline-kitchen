@@ -66,67 +66,61 @@
         href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
 </head>
 
-<body class="overflow-x-hidden">
+<body class="overflow-x-hidden relative">
 
-    <!-- ...existing code... -->
-    <!-- HERO BACKGROUND IMAGE -->
-    <section class="relative min-h-[100dvh] w-full bg-cover bg-center flex items-end justify-center">
-        <!-- Background Video -->
-        <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover">
-            <source src="assets/videos/homepage-hero-section-video.mp4" type="video/mp4">
-            <img src="assets/images/slider/slider-3.jpg" alt="Background"> <!-- fallback -->
-        </video>
-        <!-- Overlay for better text visibility -->
-        <div class="absolute inset-0 bg-black/20 z-0"></div>
-        <!-- HEADER BOX -->
-        <header
-            class="absolute top-5 left-1/2 -translate-x-1/2 max-w-[1540px] w-[90%] sm:w-[94%] bg-white/90 backdrop-blur-lgshadow-lg flex items-center justify-between p-3 sm:p-4 md:p-3 z-20">
-            <!-- Logo -->
-            <a href="#" class="flex items-center text-2xl font-extrabold text-red-700 tracking-wide">
-                <img src="assets/images/logo/logo.png" alt="Slimline Logo" class="h-8 sm:h-12 md:h-16 w-auto mr-2">
-                <h3 class="hidden">
-                    Slimline
-                </h3>
-            </a>
-            <!-- Navigation -->
-            <nav class="hidden lg:flex justify-center items-center space-x-10 font-semibold text-gray-800">
-                <a href="#" class="hover:text-red-600 transition font-[400] text-sm xl:text-[15px]">Home</a>
-                <div class="relative group">
-                    <button
-                        class="flex items-center gap-1 hover:text-red-600 transition focus:outline-none font-[400] text-sm xl:text-[15px] cursor-pointer">
-                        Product <i class="ri-arrow-down-s-line group-hover:rotate-180 transition-all duration-100"></i>
-                    </button>
-                    <!-- Dropdown -->
-                    <div
-                        class="absolute left-1/2 -translate-x-1/2 pt-3 opacity-0 group-hover:opacity-100  pointer-events-none group-hover:pointer-events-auto transition-all duration-200 z-20">
-                        <div class=" flex gap-1 text-nowrap bg-white shadow-xl p-3 border border-gray-100">
-                            <a href="#"
-                                class="px-6 py-2 hover:bg-red-50 text-gray-700 !flex gap-1 flex-col justify-center items-center font-[400] text-sm"><img src="assets/images/header-dropdown-icon/Basket.png" class="w-14 h-14" alt=""> Kitchen Accessories</a>
-                            <a href="#"
-                                class="px-6 py-2 hover:bg-red-50 text-gray-700 !flex gap-1 flex-col justify-center items-center font-[400] text-sm"><img src="assets/images/header-dropdown-icon/Basket.png" class="w-14 h-14" alt=""> Wardrobe Accessories</a>
-                            <a href="#"
-                                class="px-6 py-2 hover:bg-red-50 text-gray-700 !flex gap-1 flex-col justify-center items-center font-[400] text-sm"><img src="assets/images/header-dropdown-icon/Basket.png" class="w-14 h-14" alt=""> Bathroom Accessories</a>
-                        </div>
+    <!-- Header section -->
+    <header
+        class="absolute top-5 left-1/2 -translate-x-1/2 max-w-[1540px] w-[90%] sm:w-[94%] bg-white/90 backdrop-blur-lgshadow-lg flex items-center justify-between p-3 sm:p-4 md:p-3 z-20">
+        <!-- Logo -->
+        <a href="#" class="flex items-center text-2xl font-extrabold text-red-700 tracking-wide">
+            <img src="assets/images/logo/logo.png" alt="Slimline Logo" class="h-8 sm:h-12 md:h-16 w-auto mr-2">
+            <h3 class="hidden">
+                Slimline
+            </h3>
+        </a>
+        <!-- Navigation -->
+        <nav class="hidden lg:flex justify-center items-center space-x-10 font-semibold text-gray-800">
+            <a href="#" class="hover:text-red-600 transition font-[400] text-sm xl:text-[15px]">Home</a>
+            <div class="relative group">
+                <button
+                    class="flex items-center gap-1 hover:text-red-600 transition focus:outline-none font-[400] text-sm xl:text-[15px] cursor-pointer">
+                    Product <i class="ri-arrow-down-s-line group-hover:rotate-180 transition-all duration-100"></i>
+                </button>
+                <!-- Dropdown -->
+                <div
+                    class="absolute left-1/2 -translate-x-1/2 pt-3 opacity-0 group-hover:opacity-100  pointer-events-none group-hover:pointer-events-auto transition-all duration-200 z-20">
+                    <div class=" flex gap-1 text-nowrap bg-white shadow-xl p-3 border border-gray-100">
+                        <a href="#"
+                            class="px-6 py-2 hover:bg-red-50 text-gray-700 !flex gap-1 flex-col justify-center items-center font-[400] text-sm"><img
+                                src="assets/images/header-dropdown-icon/Basket.png" class="w-14 h-14" alt="">
+                            Kitchen Accessories</a>
+                        <a href="#"
+                            class="px-6 py-2 hover:bg-red-50 text-gray-700 !flex gap-1 flex-col justify-center items-center font-[400] text-sm"><img
+                                src="assets/images/header-dropdown-icon/Basket.png" class="w-14 h-14" alt="">
+                            Wardrobe Accessories</a>
+                        <a href="#"
+                            class="px-6 py-2 hover:bg-red-50 text-gray-700 !flex gap-1 flex-col justify-center items-center font-[400] text-sm"><img
+                                src="assets/images/header-dropdown-icon/Basket.png" class="w-14 h-14" alt="">
+                            Bathroom Accessories</a>
                     </div>
                 </div>
-                <a href="#" class="hover:text-red-600 font-[400] transition text-sm xl:text-[15px]">Our Story</a>
-                <a href="#" class="hover:text-red-600 font-[400] transition text-sm xl:text-[15px]">Contact Us</a>
-            </nav>
-            <!-- Contact Info / Social -->
-            <div class="hidden lg:flex items-center space-x-4 mr-10">
-                <span class="text-sm text-gray-500 flex items-center hidden"><i
-                        class="ri-phone-line mr-1 text-red-600"></i>
-                    +91-9650100908</span>
-                <a href="#" class="text-red-600"><i class="ri-youtube-fill text-xl"></i></a>
-                <a href="#" class="text-red-600"><i class="ri-linkedin-fill text-xl"></i></a>
-                <a href="#" class="text-red-600"><i class="ri-facebook-fill text-xl"></i></a>
-                <a href="#" class="text-red-600"><i class="ri-instagram-fill text-xl"></i></a>
             </div>
-            <!-- Mobile Menu Button -->
-            <button class="lg:hidden text-2xl text-gray-700 ml-4" id="mobile-menu-btn">
-                <i class="ri-menu-line"></i>
-            </button>
-        </header>
+            <a href="#" class="hover:text-red-600 font-[400] transition text-sm xl:text-[15px]">Our Story</a>
+            <a href="#" class="hover:text-red-600 font-[400] transition text-sm xl:text-[15px]">Contact Us</a>
+        </nav>
+        <!-- Contact Info / Social -->
+        <div class="hidden lg:flex items-center space-x-4 mr-10">
+            <span class="text-sm text-gray-500 flex items-center hidden"><i class="ri-phone-line mr-1 text-red-600"></i>
+                +91-9650100908</span>
+            <a href="#" class="text-red-600"><i class="ri-youtube-fill text-xl"></i></a>
+            <a href="#" class="text-red-600"><i class="ri-linkedin-fill text-xl"></i></a>
+            <a href="#" class="text-red-600"><i class="ri-facebook-fill text-xl"></i></a>
+            <a href="#" class="text-red-600"><i class="ri-instagram-fill text-xl"></i></a>
+        </div>
+        <!-- Mobile Menu Button -->
+        <button class="lg:hidden text-2xl text-gray-700 ml-4" id="mobile-menu-btn">
+            <i class="ri-menu-line"></i>
+        </button>
         <!-- Mobile Menu -->
         <nav id="mobile-menu"
             class="lg:hidden bg-white rounded-xl shadow-lg absolute w-[90%] left-1/2 -translate-x-1/2 top-28 hidden z-50">
@@ -156,69 +150,185 @@
                 document.getElementById('mobile-dropdown').classList.toggle('hidden');
             }
         </script>
-        <!-- HERO CONTENT -->
-        <div class="relative z-30 w-full mx-auto py-12">
-            <div class="container mx-auto px-5 justify-between grid lg:grid-cols-5 gap-5 items-center ">
-                <!-- Left: Text -->
-                <div class="lg:col-span-3">
-                    <h1 class="text-lg md:text-xl lg:text-4xl !font-[400] text-white drop-shadow mb-3 flex flex-col">
-                        We Can Make <span class="text-white text-2xl md:text-4xl lg:text-6xl">Your Interior Look
-                            Better</span>
-                    </h1>
-                    <p class="md:text-lg text-white/90 mb-8 drop-shadow max-w-2xl">
-                        From modular kitchens to wardrobes and bathrooms, we create stylish, functional
-                        and elegant solutions that elevate your home.
-                    </p>
-                    <a href="#"
-                        class="inline-block px-8 py-3 border border-gray-300 bg-white text-red-700 font-semibold hover:bg-red-600 hover:text-white transition shadow text-xs sm:text-sm">
-                        Shop Now
-                    </a>
-                </div>
-                <!-- Right: Thumbnails -->
-                <div class="lg:col-span-2 flex flex-col items-end h-full justify-end mt-10 lg:mt-0">
-                    <div class="grid grid-cols-5 gap-2 bg-transparent p-0 shadow-none">
-                        <!-- Thumbnail 1 with overlay -->
-                        <div class="col-span-2 relative overflow-hidden shadow cursor-pointer group">
-                            <img src="assets/images/slider/slider-3.jpg" alt="Kitchen"
-                                class="w-full h-full object-cover group-hover:scale-[1.05] transition-all duration-200">
-                        </div>
-                        <!-- Thumbnail 2 -->
-                        <div class="overflow-hidden shadow cursor-pointer group">
-                            <img src="assets/images/slider/slider-1.jpg" alt="Wardrobe"
-                                class="w-full h-full object-cover group-hover:scale-[1.05] transition-all duration-200">
-                        </div>
-                        <!-- Thumbnail 3 -->
-                        <div class="overflow-hidden shadow cursor-pointer group">
-                            <img src="assets/images/slider/slider-4.jpg" alt="Bathroom"
-                                class="w-full h-full object-cover group-hover:scale-[1.05] transition-all duration-200">
-                        </div>
-                        <!-- Thumbnail 4 -->
-                        <div class="overflow-hidden shadow cursor-pointer group">
-                            <img src="assets/images/slider/slider-2.jpg" alt="Living"
-                                class="w-full h-full object-cover group-hover:scale-[1.05] transition-all duration-200">
+    </header>
+
+    <main>
+        <!-- Hero Section Start -->
+        <section class="relative min-h-[100dvh] w-full bg-cover bg-center flex items-end justify-center">
+            <!-- Background Video -->
+            <video autoplay muted loop playsinline class="absolute top-0 left-0 w-full h-full object-cover">
+                <source src="assets/videos/homepage-hero-section-video.mp4" type="video/mp4">
+                <img src="assets/images/slider/slider-3.jpg" alt="Background"> <!-- fallback -->
+            </video>
+            <!-- Overlay for better text visibility -->
+            <div class="absolute inset-0 bg-black/20 z-0"></div>
+            <!-- HERO CONTENT -->
+            <div class="relative z-30 w-full mx-auto py-12">
+                <div class="container mx-auto px-5 justify-between grid lg:grid-cols-5 gap-5 items-center ">
+                    <!-- Left: Text -->
+                    <div class="lg:col-span-3">
+                        <h1
+                            class="text-lg md:text-xl lg:text-4xl !font-[400] text-white drop-shadow mb-3 flex flex-col">
+                            We Can Make <span class="text-white text-2xl md:text-4xl lg:text-6xl">Your Interior Look
+                                Better</span>
+                        </h1>
+                        <p class="md:text-lg text-white/90 mb-8 drop-shadow max-w-2xl">
+                            From modular kitchens to wardrobes and bathrooms, we create stylish, functional
+                            and elegant solutions that elevate your home.
+                        </p>
+                        <a href="#"
+                            class="inline-block px-8 py-3 border border-gray-300 bg-white text-red-700 font-semibold hover:bg-red-600 hover:text-white transition shadow text-xs sm:text-sm">
+                            Shop Now
+                        </a>
+                    </div>
+                    <!-- Right: Thumbnails -->
+                    <div class="lg:col-span-2 flex flex-col items-end h-full justify-end mt-10 lg:mt-0">
+                        <div class="grid grid-cols-5 gap-2 bg-transparent p-0 shadow-none">
+                            <!-- Thumbnail 1 with overlay -->
+                            <div class="col-span-2 relative overflow-hidden shadow cursor-pointer group">
+                                <img src="assets/images/slider/slider-3.jpg" alt="Kitchen"
+                                    class="w-full h-full object-cover group-hover:scale-[1.05] transition-all duration-200">
+                            </div>
+                            <!-- Thumbnail 2 -->
+                            <div class="overflow-hidden shadow cursor-pointer group">
+                                <img src="assets/images/slider/slider-1.jpg" alt="Wardrobe"
+                                    class="w-full h-full object-cover group-hover:scale-[1.05] transition-all duration-200">
+                            </div>
+                            <!-- Thumbnail 3 -->
+                            <div class="overflow-hidden shadow cursor-pointer group">
+                                <img src="assets/images/slider/slider-4.jpg" alt="Bathroom"
+                                    class="w-full h-full object-cover group-hover:scale-[1.05] transition-all duration-200">
+                            </div>
+                            <!-- Thumbnail 4 -->
+                            <div class="overflow-hidden shadow cursor-pointer group">
+                                <img src="assets/images/slider/slider-2.jpg" alt="Living"
+                                    class="w-full h-full object-cover group-hover:scale-[1.05] transition-all duration-200">
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- ...existing code... -->
+        </section>
+        <!-- Hero Section End -->
 
+        <!-- Shop Our Bestsellers Section Start -->
+        <section class="w-full bg-white py-14">
+            <div class="container mx-auto px-5">
+                <div class="flex flex-col justify-between items-center mb-8 gap-5">
+                    <h2 class="text-2xl md:text-3xl font-semibold text-gray-900">Shop our bestsellers</h2>
+                    <a href="#" class="text-red-700 font-medium text-sm hover:underline">View all Product</a>
+                </div>
 
-    <main></main>
+                <div class="relative">
+                    <!-- Owl Carousel -->
+                    <div class="owl-carousel owl-theme" id="bestseller-carousel">
+                        <!-- Card 1 -->
+                        <div
+                            class="bg-gray-50 shadow hover:shadow-xl transition-all duration-200 p-4 flex flex-col group border border-gray-100">
+                            <div class="flex justify-center items-center">
+                                <img src="assets/images/products/1.jpg" alt="Kitchen Basket"
+                                    class="w-full h-[230px] sm:h-[280px] object-cover">
+                            </div>
+                            <div class="flex items-center justify-between bg-white p-4">
+                                <div>
+                                    <h3 class="text-base font-semibold text-gray-800 mb-1">SS304 Kitchen Basket
+                                    </h3>
+                                    <p class="text-xs text-gray-500">For modular kitchens</p>
+                                </div>
+                                <a href="#" class="text-red-700 hover:text-red-800 text-2xl transition">
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Card 2 -->
+                        <div
+                            class="bg-gray-50 shadow hover:shadow-xl transition-all duration-200 p-4 flex flex-col group border border-gray-100">
+                            <div class="flex justify-center items-center">
+                                <img src="assets/images/products/1.jpg" alt="Wardrobe Pullout"
+                                    class="w-full h-[230px] sm:h-[280px] object-cover">
+                            </div>
+                            <div class="flex items-center justify-between bg-white p-4">
+                                <div>
+                                    <h3 class="text-base font-semibold text-gray-800 mb-1">Wardrobe Pullout</h3>
+                                    <p class="text-xs text-gray-500">Space-saving wardrobe solution</p>
+                                </div>
+                                <a href="#" class="text-red-700 hover:text-red-800 text-2xl transition">
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                        <!-- Card 3 -->
+                        <div
+                            class="bg-gray-50 shadow hover:shadow-xl transition-all duration-200 p-4 flex flex-col group border border-gray-100">
+                            <div class="flex justify-center items-center">
+                                <img src="assets/images/products/1.jpg" alt="Bathroom Organizer"
+                                    class="w-full h-[230px] sm:h-[280px] object-cover">
+                            </div>
+                            <div class="flex items-center justify-between bg-white p-4">
+                                <div>
+                                    <h3 class="text-base font-semibold text-gray-800 mb-1">SS304 Bathroom Organizer
+                                    </h3>
+                                    <p class="text-xs text-gray-500">Elegant bathroom storage</p>
+                                </div>
+                                <a href="#" class="text-red-700 hover:text-red-800 text-2xl transition">
+                                    <i class="ri-arrow-right-s-line"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Custom Navigation Buttons -->
+                    <button
+                        class="absolute -left-4 sm:-left-5 top-1/2 -translate-y-1/2 z-20 bg-red-700 rounded-full shadow w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center border border-gray-200 transition bestseller-prev cursor-pointer">
+                        <i class="ri-arrow-left-s-line text-2xl text-white"></i>
+                    </button>
+                    <button
+                        class="absolute -right-4 sm:right-5 top-1/2 -translate-y-1/2 z-20 bg-red-700 rounded-full shadow w-10 h-10 sm:w-12 sm:h-12 flex items-center justify-center border border-gray-200 transition bestseller-next cursor-pointer">
+                        <i class="ri-arrow-right-s-line text-2xl text-white"></i>
+                    </button>
+                </div>
+            </div>
+            </div>
+        </section>
+        <!-- Shop Our Bestsellers Section End -->
+
+    </main>
 
     <footer></footer>
 
 
 
     <!-- Owl Carousel JS -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" defer></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
 
     <!-- for landing page js -->
     <script src="assets/js/script.js" defer></script>
     <!-- for all page js -->
     <script src="assets/js/global.js" defer></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#bestseller-carousel').owlCarousel({
+                loop: true,
+                margin: 24,
+                nav: false,
+                dots: false,
+                responsive: {
+                    0: { items: 1 },
+                    640: { items: 1 },
+                    768: { items: 2 },
+                    1280: { items: 3 }
+                }
+            });
+            // Custom navigation
+            $('.bestseller-prev').click(function () {
+                $('#bestseller-carousel').trigger('prev.owl.carousel');
+            });
+            $('.bestseller-next').click(function () {
+                $('#bestseller-carousel').trigger('next.owl.carousel');
+            });
+        });
+    </script>
 </body>
 
 </html>
