@@ -1,4 +1,3 @@
 #bestseller-carousel .owl-stage {
-    /* padding-bottom: 50px !important; */
-    overflow-x: hidden;
+    margin-bottom: 50px !important;
 }

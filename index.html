@@ -70,13 +70,10 @@
 
     <!-- Header section -->
     <header
-        class="absolute top-5 left-1/2 -translate-x-1/2 max-w-[1540px] w-[90%] sm:w-[94%] bg-white/90 backdrop-blur-lgshadow-lg flex items-center justify-between p-3 sm:p-4 md:p-3 z-20">
+        class="absolute top-5 left-1/2 -translate-x-1/2 max-w-[1540px] w-[90%] sm:w-[94%] bg-white/90 backdrop-blur-lgshadow-lg flex items-center justify-between p-3 sm:p-4 md:p-3 z-[999]">
         <!-- Logo -->
-        <a href="#" class="flex items-center text-2xl font-extrabold text-red-700 tracking-wide">
+        <a href="index.html" class="flex items-center text-2xl font-extrabold text-red-700 tracking-wide">
             <img src="assets/images/logo/logo.png" alt="Slimline Logo" class="h-8 sm:h-12 md:h-16 w-auto mr-2">
-            <h3 class="hidden">
-                Slimline
-            </h3>
         </a>
         <!-- Navigation -->
         <nav class="hidden lg:flex justify-center items-center space-x-10 font-semibold text-gray-800">
@@ -224,10 +221,10 @@
                     <div class="owl-carousel owl-theme" id="bestseller-carousel">
                         <!-- Card 1 -->
                         <div
-                            class="bg-gray-50 shadow hover:shadow-xl transition-all duration-200 p-4 flex flex-col group border border-gray-100">
-                            <div class="flex justify-center items-center">
+                            class="bg-gray-50 shadow hover:shadow-lg transition-all duration-200 p-4 flex flex-col group border border-gray-100">
+                            <div class="flex justify-center items-center overflow-hidden">
                                 <img src="assets/images/products/1.jpg" alt="Kitchen Basket"
-                                    class="w-full h-[230px] sm:h-[280px] object-cover">
+                                    class="w-full h-[230px] sm:h-[280px] object-cover group-hover:scale-[1.05] transition-all duration-200">
                             </div>
                             <div class="flex items-center justify-between bg-white p-4">
                                 <div>
@@ -242,10 +239,10 @@
                         </div>
                         <!-- Card 2 -->
                         <div
-                            class="bg-gray-50 shadow hover:shadow-xl transition-all duration-200 p-4 flex flex-col group border border-gray-100">
-                            <div class="flex justify-center items-center">
+                            class="bg-gray-50 shadow hover:shadow-lg transition-all duration-200 p-4 flex flex-col group border border-gray-100">
+                            <div class="flex justify-center items-center overflow-hidden">
                                 <img src="assets/images/products/1.jpg" alt="Wardrobe Pullout"
-                                    class="w-full h-[230px] sm:h-[280px] object-cover">
+                                    class="w-full h-[230px] sm:h-[280px] object-cover group-hover:scale-[1.05] transition-all duration-200">
                             </div>
                             <div class="flex items-center justify-between bg-white p-4">
                                 <div>
@@ -259,10 +256,10 @@
                         </div>
                         <!-- Card 3 -->
                         <div
-                            class="bg-gray-50 shadow hover:shadow-xl transition-all duration-200 p-4 flex flex-col group border border-gray-100">
-                            <div class="flex justify-center items-center">
+                            class="bg-gray-50 shadow hover:shadow-lg transition-all duration-200 p-4 flex flex-col group border border-gray-100">
+                            <div class="flex justify-center items-center overflow-hidden">
                                 <img src="assets/images/products/1.jpg" alt="Bathroom Organizer"
-                                    class="w-full h-[230px] sm:h-[280px] object-cover">
+                                    class="w-full h-[230px] sm:h-[280px] object-cover group-hover:scale-[1.05] transition-all duration-200">
                             </div>
                             <div class="flex items-center justify-between bg-white p-4">
                                 <div>
@@ -291,9 +288,210 @@
         </section>
         <!-- Shop Our Bestsellers Section End -->
 
+        <section class="w-full bg-white pt-8 pb-32">
+            <div class="container mx-auto px-5 flex flex-col md:flex-row items-center gap-5">
+                <!-- Left: Image (replace with your own product image) -->
+                <div class="flex justify-center">
+                    <img src="assets/images/about/about-section.png" alt="Slimline Products"
+                        class="w-full object-cover">
+                </div>
+                <!-- Right: About Content -->
+                <div class="">
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900 mb-6 tracking-tight">ABOUT SLIMLINE</h2>
+                    <p class="text-gray-700 text-sm md:text-base leading-relaxed mb-6">
+                        Known widely for manufacturing, wholesaling and supplying a quality assured array of Kitchen and
+                        Wardrobe Accessories, we Slimline (a Product Of Kitchens) started our operation in the
+                        year of 2002.<br>
+                        In a short span of time, we have gained a distinct position in the market by offering Baskets,
+                        Steel Bins and SS Pullouts. These accessories are manufactured and designed by using top quality
+                        materials by our experienced professionals with the help of our top notch tools and
+                        technology.<br>
+                        We are offering these accessories in various specifications to suit the diverse needs and
+                        demands of our clients in the most effective manner. Our offered accessories are highly
+                        appreciated in the market for their excellent finishing, designs and longer service life.
+                    </p>
+                    <a href="#"
+                        class="inline-block text-sm px-7 py-3 bg-[#bc2e36] text-white font-semibold shadow hover:bg-red-700 transition">Learn
+                        more</a>
+                </div>
+            </div>
+        </section>
+
+
+        <!-- why choose us section  -->
+        <section class="relative bg-cover bg-center py-24"
+            style="background-image: url('assets/images/backgound-banner/banner-1.jpg');">
+            <!-- Dark Overlay -->
+            <div class="absolute inset-0 bg-black/90"></div>
+
+            <!-- Content -->
+            <div class="relative z-10 max-w-7xl mx-auto px-5 text-center text-white">
+                <!-- Heading -->
+                <h2 class="text-2xl sm:text-3xl md:text-5xl font-bold mb-4 text-red-600">Why Choose Slimline?</h2>
+                <p class="text-gray-200 mb-12 max-w-2xl mx-auto text-sm md:text-base">
+                    We specialize in delivering world-class kitchens, wardrobes, and bathroom solutions with unmatched
+                    quality, style, and durability.
+                </p>
+
+                <!-- Cards -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 md:gap-8 lg:gap-5 xl:gap-8">
+                    <!-- Card 1 -->
+                    <div class="relative overflow-hidden shadow-lg group border-2 border-[#ff000022]">
+                        <img src="assets/images/why-choose-us-img/kitchen.jpg" alt="Modular Kitchen"
+                            class="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110 group-hover:brightness-90">
+                        <div
+                            class="absolute inset-0 flex flex-col justify-end items-center pb-6 bg-gradient-to-t from-black/80 to-transparent">
+                            <span class="text-3xl font-semibold text-white">5000+</span>
+                            <p class="text-gray-100 text-xs md:text-sm">Modular Kitchens Installed</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 2 -->
+                    <div class="relative overflow-hidden shadow-lg group border-2 border-[#ff000022]">
+                        <img src="assets/images/why-choose-us-img/wardrobe.jpg" alt="Wardrobe"
+                            class="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110 group-hover:brightness-90">
+                        <div
+                            class="absolute inset-0 flex flex-col justify-end items-center pb-6 bg-gradient-to-t from-black/80 to-transparent">
+                            <span class="text-3xl font-semibold text-white">3000+</span>
+                            <p class="text-gray-100 text-xs md:text-sm">Wardrobes Designed</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 3 -->
+                    <div class="relative overflow-hidden shadow-lg group border-2 border-[#ff000022]">
+                        <img src="assets/images/why-choose-us-img/happy-family.jpg" alt="Happy Families"
+                            class="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110 group-hover:brightness-90">
+                        <div
+                            class="absolute inset-0 flex flex-col justify-end items-center pb-6 bg-gradient-to-t from-black/80 to-transparent">
+                            <span class="text-3xl font-semibold text-white">2000+</span>
+                            <p class="text-gray-100 text-xs md:text-sm">Happy Families</p>
+                        </div>
+                    </div>
+
+                    <!-- Card 4 -->
+                    <div class="relative overflow-hidden shadow-lg group border-2 border-[#ff000022]">
+                        <img src="assets/images/why-choose-us-img/experience.jpg" alt="Experience"
+                            class="w-full h-72 object-cover transition-transform duration-500 group-hover:scale-110 group-hover:brightness-90">
+                        <div
+                            class="absolute inset-0 flex flex-col justify-end items-center pb-6 bg-gradient-to-t from-black/80 to-transparent">
+                            <span class="text-3xl font-semibold text-white">25+</span>
+                            <p class="text-gray-100 text-xs md:text-sm">Years of Experience</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact form section -->
+        <section class="w-full py-28">
+            <div class="max-w-5xl mx-auto px-4">
+                <h2 class="text-2xl md:text-4xl font-bold text-gray-900 mb-8 text-center tracking-tight">Contact Us</h2>
+                <form class="grid md:grid-cols-2 gap-8" action="#" method="POST">
+                    <div>
+                        <input type="text" name="name" placeholder="Name"
+                            class="w-full border border-gray-300 bg-transparent px-3 py-3 text-gray-600 placeholder-gray-400 focus:outline-none focus:border-red-600 transition text-base"
+                            autocomplete="off">
+                    </div>
+                    <div>
+                        <input type="tel" name="phone" placeholder="Phone"
+                            class="w-full border border-gray-300 bg-transparent px-3 py-3 text-gray-600 placeholder-gray-400 focus:outline-none focus:border-red-600 transition text-base"
+                            autocomplete="off">
+                    </div>
+                    <div>
+                        <input type="email" name="email" placeholder="Email"
+                            class="w-full border border-gray-300 bg-transparent px-3 py-3 text-gray-600 placeholder-gray-400 focus:outline-none focus:border-red-600 transition text-base"
+                            autocomplete="off">
+                    </div>
+                    <div>
+                        <input type="text" name="subject" placeholder="Subject"
+                            class="w-full border border-gray-300 bg-transparent px-3 py-3 text-gray-600 placeholder-gray-400 focus:outline-none focus:border-red-600 transition text-base"
+                            autocomplete="off">
+                    </div>
+                    <div class="md:col-span-2">
+                        <textarea name="message" rows="4" placeholder="Message"
+                            class="w-full border border-gray-300 bg-transparent px-3 py-3 text-gray-600 placeholder-gray-400 focus:outline-none focus:border-red-600 transition text-base resize-none"></textarea>
+                    </div>
+                    <button type="submit"
+                        class="md:col-span-2 mx-auto w-fit px-8 py-3 bg-[#bc2e36] text-white font-semibold shadow hover:bg-red-700 transition text-sm">Send
+                        Message</button>
+                </form>
+            </div>
+        </section>
+
     </main>
 
-    <footer></footer>
+    <footer class="bg-gray-50 border-t border-gray-200 pt-14 pb-8">
+        <div class="container mx-auto px-5">
+            <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-10">
+                <!-- Company -->
+                <div class="space-y-4 sm:col-span-2 md:col-span-3 lg:col-span-1">
+                    <a href="index.html"><img src="assets/images/logo/logo.png" alt="Slimline Logo"
+                            class="h-12 w-auto"></a>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        We are most steadfast and inspirational manufacturer, wholesaler and supplier of Kitchen and
+                        Wardrobe Accessories.
+                    </p>
+                    <!-- Contact Info / Social -->
+                    <div class="flex items-center space-x-4">
+                        <a href="#" class="text-red-600"><i class="ri-youtube-fill text-xl"></i></a>
+                        <a href="#" class="text-red-600"><i class="ri-linkedin-fill text-xl"></i></a>
+                        <a href="#" class="text-red-600"><i class="ri-facebook-fill text-xl"></i></a>
+                        <a href="#" class="text-red-600"><i class="ri-instagram-fill text-xl"></i></a>
+                    </div>
+                </div>
+                <!-- Support -->
+                <div>
+                    <h4 class="text-lg md:text-xl font-semibold text-gray-900 mb-4">Information</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-600 hover:text-red-700 transition text-xs md:text-sm">About</a>
+                        </li>
+                        <li><a href="#"
+                                class="text-gray-600 hover:text-red-700 transition text-xs md:text-sm">Contact</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-red-700 transition text-xs md:text-sm">Faqs</a>
+                        </li>
+                        <li><a href="#" class="text-gray-600 hover:text-red-700 transition text-xs md:text-sm">Terms of
+                                Service</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-red-700 transition text-xs md:text-sm">Privacy
+                                Policy</a></li>
+                    </ul>
+                </div>
+                <!-- Products -->
+                <div>
+                    <h4 class="text-lg md:text-xl font-semibold text-gray-900 mb-4">Products</h4>
+                    <ul class="space-y-3">
+                        <li><a href="#" class="text-gray-600 hover:text-red-700 transition text-xs md:text-sm">Kitchen
+                                Accessories</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-red-700 transition text-xs md:text-sm">Wardrobe
+                                Solutions</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-red-700 transition text-xs md:text-sm">Bathroom
+                                Fittings</a></li>
+                        <li><a href="#" class="text-gray-600 hover:text-red-700 transition text-xs md:text-sm">New
+                                Arrivals</a></li>
+                    </ul>
+                </div>
+                <!-- Contact / Socials -->
+                <div>
+                    <h4 class="text-lg md:text-xl font-semibold text-gray-900 mb-4">Contact</h4>
+                    <ul class="space-y-3 mb-5">
+                        <li class="text-gray-600 flex items-center gap-2 text-sm md:text-base"><i
+                                class="ri-map-pin-fill text-red-600"></i>
+                            Sarjoni Nagar, New Delhi 233001</li>
+                        <li class="text-gray-600 flex items-center gap-2 text-sm md:text-base"><i
+                                class="ri-phone-fill text-red-600"></i>
+                            +91-9650100908</li>
+                        <li class="text-gray-600 flex items-center gap-2 text-sm md:text-base"><i
+                                class="ri-mail-fill text-red-600"></i>
+                            info@slimlinekitchens.com</li>
+                    </ul>
+
+                </div>
+            </div>
+            <p class="border-t border-gray-200 mt-10 pt-6 text-center text-sm text-gray-500">
+                &copy; 2025 - <span class="text-red-700">Slimline</span> - All Rights Reserved | IT Partner <span
+                    class="text-red-700">Sama Systems</span>
+            </p>
+        </div>
+    </footer>
 
 
 
